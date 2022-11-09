@@ -29,7 +29,12 @@ import javax.swing.border.Border;
 import javax.swing.border.EtchedBorder;
 import java.util.*;
 
-//import org.junit.jupiter.api.ClassOrderer.Random;
+/**
+ * <p>Title: HangmanFrame </p>
+ * <p>Description: HangmanFrame.java frame displays a frame and contains logic relating to the frame components.</p>
+ * <p>Course: 420-G30 Programming III</p>
+ * @author Isabel Farmer
+ */
 
 public class HangmanFrame  implements ActionListener, KeyListener {
 
@@ -83,22 +88,6 @@ public class HangmanFrame  implements ActionListener, KeyListener {
 	public HangmanFrame() {
 		initialize();
 	}
-
-	/**
-	 * Initialize the contents of the frame.
-	 */
-//	private void initialize() {
-//		frame = new JFrame();
-//		frame.setBounds(100, 100, 450, 300);
-//		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//	}
-	
-	/**
-	 * Create the application.
-	 */
-//	public HangmanFrame() {
-//		initialize();
-//	}
 
 	public HangmanFrame(String test) {
 
@@ -676,8 +665,8 @@ public class HangmanFrame  implements ActionListener, KeyListener {
 			} else {
 				textArea.setText(player.words.currentWord.getElementAt(letterTrack));
 
-				textArea.setForeground(new Color(255, 255, 0)); // make letters hidden
-
+				
+				textArea.setForeground(new Color(233, 241, 247)); // make letters hidden
 				textArea.setBorder(BorderFactory.createMatteBorder(0, 0, 2, 0, Color.BLACK));
 			}
 
