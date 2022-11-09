@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="IFarmer_G30_A02/src"/>
+	<classpathentry kind="output" path="IFarmer_G30_A02/bin"/>
+</classpath>
